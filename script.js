@@ -11,3 +11,4 @@ btnDireita.addEventListener("click", () => {
 btnEsquerda.addEventListener("click", () => {
   carrossel.scrollBy({ left: -scrollValor, behavior: "smooth" });
 });
+ 
