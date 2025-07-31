@@ -2,7 +2,7 @@ const produtos = [
   {
     id: "1",
     nome: "Blusa Trico Modal",
-    img: "./img/modelo1.jpeg",
+    imagens: ["./img/modelo1.jpeg", "./img/modelo22.jpeg"],
     preco: "R$ 89,90",
     precoAntigo: "R$ 109,90",
     tecido: "Tricô Modal confortável",
@@ -12,11 +12,11 @@ const produtos = [
   {
     id: "2",
     nome: "Cardigan",
-    img: "./img/modelo2.jpeg",
+    imagens: ["./img/modelo2.jpeg", "./img/modelo23.jpeg", "./img/modelo24.jpeg"],
     preco: "R$ 109,90",
     precoAntigo: "R$ 120,90",
-    tecido: "Malha leve",
-    tamanhos: ["P", "M", "G"],
+    tecido: "Tecido tricô",
+    tamanhos: ["M"],
     whatsapp: "5519981227305"
   },
   {
@@ -52,51 +52,51 @@ const produtos = [
   {
     id: "6",
     nome: "Vestido Gigi",
-    img: "./img/modelo6.jpeg",
+    imagens: ["./img/modelo6.jpeg", "./img/modelo20.jpeg"],
     preco: "R$ 99,90",
     precoAntigo: "R$ 115,90",
-    tecido: "Malha confortável",
-    tamanhos: ["P", "M", "G"],
+    tecido: "Crepe de ceda",
+    tamanhos: ["P"],
     whatsapp: "5519981227305"
   },
   {
     id: "7",
-    nome: "Conjunto Tweed",
-    img: "./img/modelo7.jpeg",
-    preco: "R$ 199,99",
-    precoAntigo: "R$ 229,99",
-    tecido: "Tweed clássico",
-    tamanhos: ["M", "G"],
+    nome: "Saia 3 Maria",
+    imagens: ["./img/modelo7.jpeg", "./img/modelo10.jpeg", "./img/modelo25.jpeg"],
+    preco: "R$ 99,90",
+    precoAntigo: "R$ 129,90",
+    tecido: "Onça e Tecido viscolinho, forrada, lastex na cintura",
+    tamanhos: ["G"],
     whatsapp: "5519981227305"
   },
   {
     id: "8",
-    nome: "Saia",
+    nome: "Saia Tule",
     img: "./img/modelo8.jpeg",
     preco: "R$ 159,90",
     precoAntigo: "R$ 179,90",
-    tecido: "Tecido leve e confortável",
-    tamanhos: ["P", "M", "G"],
+    tecido: "Camadas",
+    tamanhos: ["M"],
     whatsapp: "5519981227305"
   },
   {
     id: "9",
-    nome: "Saia",
+    nome: "Saia Tule",
     img: "./img/modelo9.jpeg",
     preco: "R$ 159,90",
     precoAntigo: "R$ 165,99",
-    tecido: "Tecido premium",
-    tamanhos: ["P", "M"],
+    tecido: "Coração",
+    tamanhos: ["P"],
     whatsapp: "5519981227305"
   },
   {
     id: "10",
-    nome: "Vestido Tati",
-    img: "./img/modelo10.jpeg",
-    preco: "R$ 169,90",
-    precoAntigo: "R$ 199,90",
-    tecido: "Tecido confortável e elegante",
-    tamanhos: ["P", "M", "G", "GG"],
+    nome: "Camisa Flor",
+    img: "./img/modelo29.jpeg",
+    preco: "R$ 79,90",
+    precoAntigo: "R$ 109,90",
+    tecido: "Confortável",
+    tamanhos: ["M"],
     whatsapp: "5519981227305"
   },
   {
@@ -116,7 +116,7 @@ const produtos = [
     preco: "R$ 199,90",
     precoAntigo: "R$ 220,00",
     tecido: "Pelúcia macia",
-    tamanhos: ["M", "G", "GG"],
+    tamanhos: ["P"],
     whatsapp: "5519981227305"
   },
   {
@@ -145,8 +145,8 @@ const produtos = [
     img: "./img/modelo15.jpeg",
     preco: "R$ 169,90",
     precoAntigo: "R$ 199,90",
-    tecido: "Viscose leve",
-    tamanhos: ["P", "M", "G", "GG"],
+    tecido: "Tecido lanzinha acompanha faixa",
+    tamanhos: ["M"],
     whatsapp: "5519981227305"
   },
   {
@@ -162,11 +162,11 @@ const produtos = [
   {
     id: "17",
     nome: "Saia Plissada Acetinada",
-    img: "./img/modelo17.jpeg",
+    imagens: ["./img/modelo17.jpeg", "./img/modelo26.jpeg", "./img/modelo27.jpeg", "./img/modelo28.jpeg"], 
     preco: "R$ 139,90",
     precoAntigo: "R$ 199,90",
-    tecido: "Satinado plissado",
-    tamanhos: ["P", "M", "G"],
+    tecido: "Comprimento mídi lastex na cintura",
+    tamanhos: ["M", "G"],
     whatsapp: "5519981227305"
   },
   {
@@ -175,8 +175,8 @@ const produtos = [
     img: "./img/modelo18.jpeg",
     preco: "R$ 179,90",
     precoAntigo: "R$ 199,90",
-    tecido: "Tecido nobre",
-    tamanhos: ["M", "G"],
+    tecido: "Tecido linho, botões funcionais",
+    tamanhos: ["G"],
     whatsapp: "5519981227305"
   },
   {
@@ -186,17 +186,17 @@ const produtos = [
     preco: "R$ 199,90",
     precoAntigo: "R$ 220,00",
     tecido: "Pelúcia macia",
-    tamanhos: ["M", "G", "GG"],
+    tamanhos: ["P"],
     whatsapp: "5519981227305"
   },
   {
     id: "20",
-    nome: "Vestido Gigi",
-    img: "./img/modelo20.jpeg",
-    preco: "R$ 99,90",
-    precoAntigo: "R$ 119,90",
-    tecido: "Malha confortável",
-    tamanhos: ["P", "M", "G"],
+    nome: "Vestido Chamise Fran",
+    imagens: ["./img/modelo30.jpeg", "./img/modelo31.jpeg"],
+    preco: "R$ 189,90",
+    precoAntigo: "R$ 220,90",
+    tecido: "Tecido viscolinho, acompanha faixa, botões funcionais",
+    tamanhos: ["G2"],
     whatsapp: "5519981227305"
   },
   {
@@ -211,48 +211,64 @@ const produtos = [
   },
   {
     id: "22",
-    nome: "Blusa Tricô Modal",
-    img: "./img/modelo22.jpeg",
+    nome: "Vestido Lídia",
+    imagens: ["./img/modelo35.jpeg", "./img/modelo36.jpeg"],
     preco: "R$ 89,90",
     precoAntigo: "R$ 109,90",
-    tecido: "Tricô modal confortável",
-    tamanhos: ["P", "M", "G"],
+    tecido: "Tecido viscolinho, lastex na cintura",
+    tamanhos: ["G2"],
     whatsapp: "5519981227305"
   },
   {
     id: "23",
-    nome: "Cardigan",
-    img: "./img/modelo23.jpeg",
-    preco: "R$ 109,90",
-    precoAntigo: "R$ 120,90",
-    tecido: "Malha leve",
-    tamanhos: ["P", "M", "G"],
+    nome: "Vestido Vitória",
+    imagens: ["./img/modelo32.jpeg", "./img/modelo33.jpeg"],
+    preco: "R$ 150,00",
+    precoAntigo: "R$ 180,00",
+    tecido: "Tecido viscolinho, lastex na cintura",
+    tamanhos: ["G1"],
     whatsapp: "5519981227305"
   },
   {
     id: "24",
-    nome: "Cardigan",
-    img: "./img/modelo24.jpeg",
-    preco: "R$ 109,90",
-    precoAntigo: "R$ 120,90",
-    tecido: "Malha leve",
-    tamanhos: ["P", "M", "G"],
+    nome: "Vestido Carol",
+    img: "./img/modelo34.jpeg",
+    preco: "R$ 179,90",
+    precoAntigo: "R$ 199,90",
+    tecido: "Tecido moletinho",
+    tamanhos: ["G1"],
     whatsapp: "5519981227305"
   }
 ];
 
 
-// Função para pegar o parâmetro id da URL
+// Controle do carrossel
+let indiceImagemAtual = 0;
+let imagensProduto = [];
+
+// Pega o ID da URL
 function pegarIdUrl() {
   const params = new URLSearchParams(window.location.search);
   return params.get("id");
 }
 
-// Função que monta o HTML de detalhes do produto
+// Gera o HTML do produto
 function montarDetalhes(produto) {
   const linkWhats = `https://wa.me/${produto.whatsapp}?text=Olá!%20Tenho%20interesse%20no%20produto:%20${encodeURIComponent(produto.nome)}`;
+
+  // Carrossel se houver várias imagens
+  const imagensHTML = produto.imagens
+    ? `
+      <div class="carrossel">
+        <button class="seta esquerda" onclick="mudarImagem(-1)">❮</button>
+        <img id="carrossel-img" src="${produto.imagens[0]}" alt="${produto.nome}" />
+        <button class="seta direita" onclick="mudarImagem(1)">❯</button>
+      </div>
+    `
+    : `<img src="${produto.img}" alt="${produto.nome}" />`;
+
   return `
-    <img src="${produto.img}" alt="${produto.nome}" />
+    ${imagensHTML}
     <h2>${produto.nome}</h2>
     <p class="price">${produto.preco} <span>${produto.precoAntigo}</span></p>
     <p><strong>Tecido:</strong> ${produto.tecido}</p>
@@ -263,7 +279,7 @@ function montarDetalhes(produto) {
   `;
 }
 
-// Função principal que carrega os detalhes
+// Carrega os detalhes do produto
 function carregarDetalhes() {
   const id = pegarIdUrl();
   const produto = produtos.find(p => p.id === id);
@@ -275,8 +291,25 @@ function carregarDetalhes() {
     return;
   }
 
+  if (produto.imagens) {
+    imagensProduto = produto.imagens;
+  }
+
   container.innerHTML = montarDetalhes(produto);
 }
 
-// Executa quando a página carregar
+// Controla a navegação do carrossel
+function mudarImagem(direcao) {
+  indiceImagemAtual += direcao;
+
+  if (indiceImagemAtual < 0) indiceImagemAtual = imagensProduto.length - 1;
+  if (indiceImagemAtual >= imagensProduto.length) indiceImagemAtual = 0;
+
+  const imgElement = document.getElementById("carrossel-img");
+  if (imgElement) {
+    imgElement.src = imagensProduto[indiceImagemAtual];
+  }
+}
+
+// Inicia o carregamento ao abrir a página
 window.addEventListener("DOMContentLoaded", carregarDetalhes);

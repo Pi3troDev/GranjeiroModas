@@ -141,6 +141,40 @@ body {
   transform: scale(1.05);
 }
 
+/* Estilo do carrossel */
+.carrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 1rem;
+}
+
+.carrossel img {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(131, 77, 85, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.seta {
+  position: relative;
+  background-color: rgba(131, 77, 85, 0.1);
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--main-color);
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.seta:hover {
+  background-color: rgba(131, 77, 85, 0.3);
+}
+
 /* Responsividade */
 
 @media (max-width: 768px) {
@@ -179,5 +213,10 @@ body {
   .btn.voltar-btn {
     font-size: 1.2rem;
     padding: 0.7rem 1.2rem;
+  }
+
+  .seta {
+    font-size: 1.5rem;
+    padding: 0.3rem 0.7rem;
   }
 }
